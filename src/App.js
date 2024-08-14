@@ -9,11 +9,27 @@ function App() {
     setIngredients([...ingredients, newIngredient]);
   };
 
+  const handleEditIngredient = (index, updatedIngredient) => {
+    const newIngredients = [...ingredients];
+    newIngredients[index] = updatedIngredient;
+    setIngredients(newIngredients);
+  };
+
+  const handleDeleteIngredient = (index) => {
+    const newIngredients = [...ingredients];
+    newIngredients.splice(index, 1);
+    setIngredients(newIngredients);
+  };
+
   return (
     <div>
       <h1>Cooking App</h1>
       <IngredientForm handleAddIngredient={handleAddIngredient} />
-      <IngredientList ingredients={ingredients} />
+      <IngredientList
+        ingredients={ingredients}
+        onEdit={handleEditIngredient}
+        onDelete={handleDeleteIngredient}
+      />
     </div>
   );
 }

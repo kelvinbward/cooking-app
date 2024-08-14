@@ -7,7 +7,7 @@ describe('App', () => {
     render(<App />);
 
     const headingElement = screen.getByText(/Cooking App/i);
-    const formElement = screen.getByRole('form');
+    const formElement = screen.getByText(/Add Ingredient/i);
     const listElement = screen.getByRole('list');
 
     expect(headingElement).toBeInTheDocument();

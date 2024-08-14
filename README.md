@@ -3,9 +3,8 @@
 <ol>
 <li>Recipe management (creation, editing, deletion)</li>
 <li>Ingredient management (editing, deletion, bulk actions)</li>
-<li>Shopping list generation</li>
-<li>User authentication and authorization</li>
-<li>Recipe sharing, comments, Favorites</li>
+<li>User profile & Personal ingredient inventory
+<li>Shopping list generation based on ingredient inventory & Recipe</li>
 </ol>
 ## Additional Features:
 <ol>
@@ -31,4 +30,4 @@
 Docker-Compose, React bootstrap, Basic add, delete, edit form.
 Main branch should build with compose and launch to localhost:80
 
-Contributions welcome, this is a resume project/personal app 
+Contributions welcome, this is a resume project/personal app. Focus on functionality over style until core functionality is usable.

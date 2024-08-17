@@ -14,6 +14,11 @@
 <li>Image uploads</li>
 <li>Social features (sharing, collaboration)</li>
 <li>Meal planning</li>
+<li>Active recipe tracking (Shopping list reverse)</l>
+<li>High level overview (timeframe, activity level involved, difficulty</li>
+<li>Measurement controls</li>
+<li>Mobile App(s)</li>
+<li>Google Integration</li>
 </ol>
 ## Technical Considerations:
 <ol>
@@ -23,7 +28,9 @@
 <li>Testing (unit, integration, end-to-end)</li>
 <li>Deployment</li>
 <li>Accessibility</li>
-<li>Mobile App(s)</li>
+</ol>
+
+
 </ol>
 
 ## Project Summary 8/14/24
